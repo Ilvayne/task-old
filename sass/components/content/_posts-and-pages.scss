@@ -1,0 +1,33 @@
+.sticky {
+  display: block;
+}
+
+.post,
+.page {
+  margin: 0 0 1.5em;
+}
+
+.updated:not(.published) {
+  display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+  margin: 1.5em 0 0;
+}
+
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em;
+}
+
+.site {
+  display: flex;
+}
+
+.container {
+  max-width: 1105px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <title>Agenturro</title>
+    <link
+      rel="stylesheet"
+      id="agenturro-style-css"
+      href="style.css?ver=1.0.0"
+      media="all"
+    />
+  </head>
+
+  <body class="task-info">
+    <div id="page" class="site">
+      <div class="nav-bar">
+        <input id="nav-toggle" type="checkbox" />
+        <div class="nav-header">
+          <a href="/">
+            <img id="nav-title" src="img/logo.svg" alt="" class="logo" />
+            <img src="img/logo-a.svg" alt="" class="logo-toggle" />
+          </a>
+
+          <label for="nav-toggle"><span id="nav-toggle-burger"></span></label>
+        </div>
+
+        <nav class="nav-content">
+          <ul>
+            <li>
+              <a class="nav-button" href="#">
+                <i class="dashboard"></i>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a class="nav-button" href="#">
+                <i class="projects"></i>
+                <span>Projects</span>
+              </a>
+            </li>
+            <li>
+              <a class="nav-button" href="#">
+                <i class="tasks"></i>
+                <span>Tasks</span>
+              </a>
+            </li>
+            <li>
+              <a class="nav-button" href="#">
+                <i class="accounts"></i>
+                <span>Accounts <br />and Invoces</span>
+              </a>
+            </li>
+            <li>
+              <a class="nav-button" href="#">
+                <i class="log-out"></i>
+                <span>log out</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <section class="content" id="content">
+        <div class="container">
+          <div class="content-head">
+            <div class="content-head__top">
+              <input
+                class="search"
+                type="search"
+                name="search"
+                id=""
+                placeholder="Search Tasks"
+              />
+
+              <div class="notification">
+                <span class="numbers">1</span>
+                <img src="img/icons_medium/bell.svg" alt="" />
+              </div>
+              <div class="seetings">
+                <img src="img/icons_medium/settings.svg" alt="" />
+              </div>
+              <div class="account">
+                <div class="account-text">
+                  <p>Your Company</p>
+                  <span>Welcome back</span>
+                </div>
+                <img
+                  src="img/icons_medium/avatars/ruslan.svg"
+                  alt=""
+                  class="avatar"
+                />
+                <div class="account-dropdown">
+                  <img src="img/icons_medium/chevron_down.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="content-head__bottom">
+              <div class="project">
+                <img
+                  src="img/icons_medium/avatars/ruslan.svg"
+                  alt=""
+                  class="project-logo"
+                />
+                <div class="project-task__name">Name project 1</div>
+              </div>
+              <div class="estimate">
+                <span>Estimated</span>
+                <div class="hours">28h</div>
+              </div>
+
+              <div class="task-info">
+                <div class="performer">
+                  <img src="img/icons_medium/avatars/av2.png" alt="" />
+                </div>
+                <div class="status">✅ Ready</div>
+
+                <a href="#" class="button review">Review</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-main">
+            <div class="tabs-wrap">
+              <ul class="tabs">
+                <li class="tab active">
+                  <i class="info"></i>
+                  Task Info
+                </li>
+                <li class="tab">
+                  <i class="parametrs"></i>
+                  Parametrs
+                  <span>12</span>
+                </li>
+                <li class="tab">
+                  <i class="files"></i>
+                  Files
+                  <span>12</span>
+                </li>
+                <li class="tab">
+                  <i class="reviews"></i>
+                  Reviews
+                </li>
+              </ul>
+
+              <div class="tab-content active">
+                <h2>Title and description of the task</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua ut
+                  enim ad minim veniam quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip exea commodo consequat.
+                </p>
+
+                <div class="custom-checkbox">
+                  <input type="checkbox" id="one" name="one" />
+                  <label for="one"
+                    >Quis faucibus massa sit egestas sit fermentum</label
+                  >
+                </div>
+
+                <div class="custom-checkbox">
+                  <input type="checkbox" id="two" name="two" />
+                  <label for="two"
+                    >Morbi fringilla molestie magna sed dictum praesent</label
+                  >
+                </div>
+                <p>
+                  Ultrices sagittis orci a scelerisque purus semper eget nisi
+                  dolor st scelerisque eu ultrices vitae auctor eu augue.
+                </p>
+
+                <img src="img/Card Image Mask.png" alt="" />
+
+                <ul>
+                  <li>Quis faucibus massa sit egestas sit fermentum</li>
+                  <li>
+                    Cras mi purus viverra vitae felis sit amet tincidunt fringi
+                  </li>
+                  <li>Non mattis urna ex nec sem donec varius</li>
+                  <li>Morbi fringilla molestie magna sed dictum praesent</li>
+                  <li>Quisque euismod posuere lacus sit</li>
+                </ul>
+              </div>
+              <div class="tab-content">
+                <h2>Parametrs</h2>
+              </div>
+              <div class="tab-content">
+                <h2>Files</h2>
+              </div>
+              <div class="tab-content">
+                <h2>Reviews</h2>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="button all-tasks">All Tasks</a>
+        </div>
+      </section>
+    </div>
+    <!-- #page -->
+
+    <script src="js/jquery-3.7.0.min.js" id="jquery-core-js"></script>
+    <script src="js/main.js?ver=1.0.0" id="scripts-js"></script>
+  </body>
+</html>

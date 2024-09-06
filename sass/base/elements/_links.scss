@@ -1,0 +1,42 @@
+a {
+  color: $color__link;
+
+  &:visited {
+    color: $color__link-visited;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color__link-hover;
+  }
+
+  &:focus {
+    outline: thin dotted;
+  }
+
+  &:hover,
+  &:active {
+    outline: 0;
+  }
+}
+.button,
+a.button {
+  padding: 18px 30px 18px 29px;
+  border-radius: 16px;
+  border: 1px solid var(--Primary-blue, #428aff);
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+  color: var(--Primary-blue, #428aff);
+
+  &:focus,
+  &:active,
+  &:hover {
+    background: var(--Primary-blue-70, #83b2ff);
+    color: white;
+    border: 1px solid var(--Primary-blue, #83b2ff);
+  }
+}
